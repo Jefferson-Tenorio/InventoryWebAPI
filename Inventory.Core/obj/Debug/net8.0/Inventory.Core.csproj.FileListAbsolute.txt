@@ -1,0 +1,4 @@
+C:\Users\jjeff\OneDrive\Ambiente de Trabalho\Livros\LearningLPO\Projetos\WebAPIs\Inventory.Core\obj\Debug\net8.0\Inventory.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jjeff\OneDrive\Ambiente de Trabalho\Livros\LearningLPO\Projetos\WebAPIs\Inventory.Core\obj\Debug\net8.0\Inventory.Core.AssemblyInfoInputs.cache
+C:\Users\jjeff\OneDrive\Ambiente de Trabalho\Livros\LearningLPO\Projetos\WebAPIs\Inventory.Core\obj\Debug\net8.0\Inventory.Core.AssemblyInfo.cs
+C:\Users\jjeff\OneDrive\Ambiente de Trabalho\Livros\LearningLPO\Projetos\WebAPIs\Inventory.Core\obj\Debug\net8.0\Inventory.Core.csproj.CoreCompileInputs.cache
