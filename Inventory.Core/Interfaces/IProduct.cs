@@ -10,14 +10,14 @@ namespace Inventory.Core.Interfaces
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime DataAdded { get; set; }
+        public DateTime DateAdded { get; set; }
         public DateTime? ExpiryDate { get; set; }
         public decimal PurchasePrice { get; set; }
-        public decimal SalaPrice { get; set; }
+        public decimal SalePrice { get; set; }
         public int StockQuantity { get; set; }
 
         void DecreaseStock(int amount);
-        void DisplayProductDetails();
+        string DisplayProductDetails();
        
     }
 }

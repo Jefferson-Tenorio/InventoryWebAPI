@@ -1,4 +1,5 @@
 ﻿using Inventory.Core.Interfaces;
+using Inventory.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,11 @@ namespace Inventory.Core.Repositories
 {
     public interface IProductRepository
     {
-        void Add(IProduct product);
-        void Remove(int productId);
-        IProduct GetById(int productId);
-        IEnumerable<IProduct> GetAll();
+        Task AddAsync(Product product);
+        Task DeleteAsync(Product product);
+        Task DeleteAsync(int productId);
+        Task UpdateAsync(Product product);
+        Task<Product> GetByIdAsync(int productId);
+        Task<IEnumerable<Product>> GetAllAsync();
     }
 }

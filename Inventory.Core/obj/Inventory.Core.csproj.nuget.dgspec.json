@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\Inventory.Core\\Inventory.Core.csproj": {}
+    "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\InventoryWebAPI\\Inventory.Core\\Inventory.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\Inventory.Core\\Inventory.Core.csproj": {
+    "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\InventoryWebAPI\\Inventory.Core\\Inventory.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\Inventory.Core\\Inventory.Core.csproj",
+        "projectUniqueName": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\InventoryWebAPI\\Inventory.Core\\Inventory.Core.csproj",
         "projectName": "Inventory.Core",
-        "projectPath": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\Inventory.Core\\Inventory.Core.csproj",
+        "projectPath": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\InventoryWebAPI\\Inventory.Core\\Inventory.Core.csproj",
         "packagesPath": "C:\\Users\\jjeff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\Inventory.Core\\obj\\",
+        "outputPath": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\InventoryWebAPI\\Inventory.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jjeff\\AppData\\Roaming\\NuGet\\NuGet.Config",

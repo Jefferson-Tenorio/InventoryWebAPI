@@ -10,7 +10,7 @@ namespace Inventory.Core.Mappers
 {
     public static class ProductMapper
     {
-        public static ProductDTO ToDTO(BaseProduct product)
+        public static ProductDTO ToDTO(Product product)
         {
             ProductDTO productDTO = null;
 
@@ -20,6 +20,8 @@ namespace Inventory.Core.Mappers
                 {
                     Id = perishable.Id,
                     Name = perishable.Name,
+                    Supplay = perishable.Supplay,
+                    Description = perishable.Description,
                     DateAdded = perishable.DateAdded,
                     ExpiryDate = perishable.ExpiryDate,
                     PurchasePrice = perishable.PurchasePrice,
@@ -44,9 +46,9 @@ namespace Inventory.Core.Mappers
             return productDTO;
         }
 
-        public static BaseProduct ToModel(ProductDTO productDTO)
+        public static Product ToModel(ProductDTO productDTO)
         {
-            BaseProduct product = null;
+            Product product = null;
 
             switch(productDTO.ProductType)
             {

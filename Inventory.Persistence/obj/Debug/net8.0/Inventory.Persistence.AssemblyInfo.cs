@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Inventory.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Inventory.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84af6100fc97a4e224d20da223d8a33296c0e093")]
-[assembly: System.Reflection.AssemblyProductAttribute("Inventory.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Inventory.Core")]
+[assembly: System.Reflection.AssemblyProductAttribute("Inventory.Persistence")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Inventory.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

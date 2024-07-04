@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Inventory.Core.Models
 {
-    public class PerishableProduct : BaseProduct
+    public class PerishableProduct : Product
     {
-        public override void DisplayProductDetails()
+        public override string DisplayProductDetails()
         {
-            throw new NotImplementedException();
+            return "";
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zNJvxLvXQXrlKRDxiKdgxaE+oEthSAj77OlP9w/yBC8eNktFraxNfIQnxUBuBPcFVVnirfUnWFkaj03XieHzsA==",
+  "dgSpecHash": "o/dEZWE1l7D5JMF+Ssm6SzyfGXqTz9tlWmqMgQ363GBtVqSgFVfB2QAD9mfhHlGJMFSdW7fJXfyHsFRvJQjV0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\Inventory.Core\\Inventory.Core.csproj",
+  "projectFilePath": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\InventoryWebAPI\\Inventory.Core\\Inventory.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
