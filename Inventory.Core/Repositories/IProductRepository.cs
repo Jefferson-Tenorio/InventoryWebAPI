@@ -15,6 +15,6 @@ namespace Inventory.Core.Repositories
         Task DeleteAsync(int productId);
         Task UpdateAsync(Product product);
         Task<Product> GetByIdAsync(int productId);
-        Task<IEnumerable<Product>> GetAllAsync();
+        Task<List<Product>> GetAllAsync();
     }
 }

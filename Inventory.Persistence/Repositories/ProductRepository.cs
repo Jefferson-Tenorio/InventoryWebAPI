@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Inventory.Persistence.Repositories
 {
-    internal class ProductRepository : IProductRepository
+    public class ProductRepository : IProductRepository
     {
         private readonly ProductContext _context;
 
@@ -42,7 +42,7 @@ namespace Inventory.Persistence.Repositories
             }        
         }
 
-        public async Task<IEnumerable<Product>> GetAllAsync()
+        public async Task<List<Product>> GetAllAsync()
         {
             return await _context.products.ToListAsync();
             

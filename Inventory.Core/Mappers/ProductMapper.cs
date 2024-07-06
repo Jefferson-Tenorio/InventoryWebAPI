@@ -12,31 +12,20 @@ namespace Inventory.Core.Mappers
     {
         public static ProductDTO ToDTO(Product product)
         {
+
             ProductDTO productDTO = null;
 
-            if(product is PerishableProduct perishable)
+            productDTO = new ProductDTO
             {
-                productDTO = new ProductDTO
-                {
-                    Id = perishable.Id,
-                    Name = perishable.Name,
-                    Supplay = perishable.Supplay,
-                    Description = perishable.Description,
-                    DateAdded = perishable.DateAdded,
-                    ExpiryDate = perishable.ExpiryDate,
-                    PurchasePrice = perishable.PurchasePrice,
-                    SalePrice = perishable.SalePrice,
-                    StockQuantity = perishable.StockQuantity,
+                Id = product.Id,
+                Name = product.Name,
+                Supplay = product.Supplay,
+                Description = product.Description,
+                    PurchasePrice = product.PurchasePrice,
+                    SalePrice = product.SalePrice,
+                    StockQuantity = product.StockQuantity,
                     ProductType = "Perishable"
                 };
-            }
-            //else if (product is AnyOther product)
-            //{
-            //  productDTO = new ProductDTO
-            //  {
-            //      ...
-            //  };
-            //}
 
             if(productDTO == null)
             {
@@ -48,30 +37,28 @@ namespace Inventory.Core.Mappers
 
         public static Product ToModel(ProductDTO productDTO)
         {
-            Product product = null;
+            Product product = new Product();
 
-            switch(productDTO.ProductType)
-            {
-                case "Perishale":
-                    {
-                        product = new PerishableProduct();
-                        break;
-                    }
-                // case "AnyOther":
-                //{
-                //  product = new AnyOtherProduct();
-                //  break;
-                //}
-                default:
-                    throw new ArgumentException("Invalid Product Type");
-            }
-
-            product.Id = productDTO.Id;
             product.Name = productDTO.Name;
-            product.DateAdded = productDTO.DateAdded;
+            product.DateAdded = DateTime.Now;
             product.PurchasePrice = productDTO.PurchasePrice;
             product.SalePrice = productDTO.SalePrice;
             product.StockQuantity = productDTO.StockQuantity;
+            product.Description = productDTO.Description;
+            product.Supplay = productDTO.Supplay;
+            product.ExpiryDate = DateTime.Now;
+            product.ProductType = productDTO.ProductType;
+
+        //    public int Id { get; set; }
+        //public string Name { get; set; }
+        //public string Supplay { get; set; }
+        //public string Description { get; set; }
+        //public DateTime DateAdded { get; set; }
+        //public DateTime? ExpiryDate { get; set; }
+        //public decimal PurchasePrice { get; set; }
+        //public decimal SalePrice { get; set; }
+        //public int StockQuantity { get; set; }
+        //public string ProductType { get; set; }
 
             //if (product is PerishableProduct perishable)
             //{

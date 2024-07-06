@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RqBgbBkFbpLukpobXXgSQPAJwlh0hHwrYiTO9L9oTDiPwh5PL7B3ojDEY7AWwSXoZqz8r41LXQ500fRI0A7E+w==",
+  "dgSpecHash": "lZSaql+gXZyZ/XIRU9MdKirTddtKf8awLD2C1CE6VXxDtIRVeQsf2E7kvOZJ+9D2fupkCCnbR5aFONGvv6TDKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Livros\\LearningLPO\\Projetos\\WebAPIs\\InventoryWebAPI\\Inventory.Persistence\\Inventory.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\jjeff\\OneDrive\\Ambiente de Trabalho\\Add-Project\\InventoryWebAPI\\Inventory.Persistence\\Inventory.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jjeff\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jjeff\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -8,9 +8,5 @@ namespace Inventory.Core.Models
 {
     public class PerishableProduct : Product
     {
-        public override string DisplayProductDetails()
-        {
-            return "";
-        }
     }
 }

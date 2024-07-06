@@ -1,4 +1,6 @@
-﻿using Inventory.Core.Interfaces;
+﻿using Inventory.Core.DTOs;
+using Inventory.Core.Interfaces;
+using Inventory.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +11,13 @@ namespace Inventory.Core.Services
 {
     public interface IProductService
     {
-        void AddProduct(IProduct product);
-        void RemoveProduct(int productId);
-        IProduct GetProduct(int productId);
-        IEnumerable<IProduct> GetAll();
+        Task<Product> CreateProductAsync(ProductDTO productDTO);
+        Task<IEnumerable<Product>> GetAllProductsAsync();
+        Task<Product> GetProductByIdAsync(int id);
+        Task DeleteProduct(int id);
+        Task DeleteProduct(ProductDTO productDTO);
+
+        Task<Product> UpdateProduct(ProductDTO productDTO);
 
     }
 }

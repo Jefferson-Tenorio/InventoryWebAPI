@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Inventory.Core.Models
 {
-    public abstract class Product : IProduct
+    public class Product : IProduct
     {
         public int Id { get; set ; }
         public string Name { get; set ; }
@@ -26,7 +26,8 @@ namespace Inventory.Core.Models
         {
             StockQuantity -= amount;
         }
-        public abstract string DisplayProductDetails();
+        public string DisplayProductDetails( ){ return ""; }
+
 
     }
 }
